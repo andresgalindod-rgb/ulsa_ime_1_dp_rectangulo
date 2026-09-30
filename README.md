@@ -42,11 +42,11 @@ siempre se cumple que ancho > 0
 | 3 (con decimales) | 1.5 | 4 | 6 cm² | 11 cm |
 
 ## 5. Receta en pseudocódigo (Fase 2)
-<!-- Tu receta va en el archivo RECETA.md. Aquí solo responde las preguntas. -->
 
-**¿Probé mi receta a mano con un caso válido y uno inválido?** Sí / No
-**¿Tuve que corregirla?** _____
-**¿Cuántas versiones de mi receta escribí hasta la final?** _____
+
+**¿Probé mi receta a mano con un caso válido y uno inválido?** Sí 
+**¿Tuve que corregirla?** Si
+**¿Cuántas versiones de mi receta escribí hasta la final?** 2
 
 ## 6. Cómo compilar y ejecutar (Fase 3)
 
