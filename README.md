@@ -1,45 +1,45 @@
 # Práctica 3: Área y perímetro de un rectángulo
 ## 1. Descripción del problema (Fase 1)
-<!-- Explica con tus palabras qué hace tu programa y para qué serviría en la vida real. Máximo 4 líneas. -->
+Pide el ancho y el alto de un rectangulo en centimetros y revisa que sean mayores que 0 y muestra su area y perimetro.
 
 _____
 
 ## 2. Entradas y salidas (Fase 1)
-<!-- Define cada entrada y cada salida, con su tipo de dato, sus unidades y su objetivo. -->
+
 
 **Entradas:**
-1. _____
-2. _____
+1. ancho en cm. La medida horizontal del rectángulo; debe ser mayor que 0.
+2. alto en cm. La medida vertical; debe ser mayor que 0.
 
 **Salidas:**
-1. _____
-2. _____
+1. area tipo double, en cm². La superficie que ocupa el rectángulo.
+2. perimetro tipo double, en cm. La longitud de todo su borde.
 
 **Fórmulas** (área y perímetro):
-_____
+Área = ancho × alto. Perímetro = 2 × (ancho + alto), porque el borde tiene dos anchos y dos altos.
 
 ## 3. Restricciones e invariante (Fase 1 y 2)
 
 **Restricciones** (¿qué debe cumplirse?):
-- _____
-- _____
+- El ancho debe ser mayor que 0.
+- El alto debe ser mayor que 0.
 
 **¿Qué hace mi programa con una medida de 0 o negativa? ¿Por qué?**
-_____
+La rechaza y vuelve a pedir el dato, porque un rectángulo no puede medir 0 ni una medida negativa
 
 **¿Quién detecta cada error?** (¿qué revisa `leerDecimal` y qué reviso yo?)
-_____
+`leerDecimal` revisa el formato: y que lo escrito sea un número (rechaza cosas como "abc" o "12abc")
 
 **Invariante** (al salir del ciclo que pide el ancho, ¿qué es seguro sobre `ancho`?):
-_____
+siempre se cumple que ancho > 0
 
 ## 4. Casos resueltos a mano (Fase 1)
 
 | Caso | Ancho | Alto | Área calculada a mano | Perímetro calculado a mano |
 |---|---|---|---|---|
-| 1 | _____ | _____ | _____ | _____ |
-| 2 (cuadrado) | _____ | _____ | _____ | _____ |
-| 3 (con decimales) | _____ | _____ | _____ | _____ |
+| 1 | 7 | 2 | 14 cm² | 18 cm |
+| 2 (cuadrado) | 3 | 3 | 9 cm² | 12 cm |
+| 3 (con decimales) | 1.5 | 4 | 6 cm² | 11 cm |
 
 ## 5. Receta en pseudocódigo (Fase 2)
 <!-- Tu receta va en el archivo RECETA.md. Aquí solo responde las preguntas. -->
